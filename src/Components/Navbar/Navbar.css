@@ -6,16 +6,17 @@
     background: #ffffff;
   }
   
-  .Navbar > .nav-logo {
-    font-weight: 700;
-    font-size: 21px;
-    margin: 15px;
-    color: #ffffff;
-  }
   
+  .Navbar > .nav-logo > img {
+    height: 70px;
+    width: 200px;
+    font-weight: 700;
+  }
+
   .Navbar > .nav-items > a {
     color: black;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: large;
     text-decoration: none;
     margin: 15px;
     position: relative;
@@ -24,6 +25,7 @@
   
   .Navbar > .nav-items > a:hover {
     opacity: 1;
+    color: #FB2F79;
   }
   
   .Navbar > .nav-items > a::before {
@@ -32,18 +34,52 @@
     left: 0;
     bottom: 0;
     width: 0;
-    height: 2px;
-    background: black;
+    height: 3px;
+    background: #FB2F79;
     transition: all 0.45s;
   }
   
   .Navbar > .nav-items > a:hover::before {
     width: 100%;
   }
+
+  
+   
+.Navbar> div > p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 50px;
+  display: inline;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 250%;
+
+}
+
+.Navbar> div> p:hover{
+  background-color: lightgray;
+}
+
+.Navbar> div> span{
+  font-weight: 500;
+  margin: 10px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+.Navbar> div> span:hover{
+  background-color: lightgray;
+
+}
   
   .Navbar > .nav-toggle {
     display: none;
   }
+
+  
   
   @media (max-width: 700px) {
     .Navbar > .nav-items {
@@ -51,10 +87,10 @@
       top: 60px;
       display: flex;
       flex-direction: column;
-      background: hsl(230, 48%, 44%);
+      background: #45ECE7;
+      border-radius: 20px;
       left: 0;
-      width: 100%;
-      height: 100%;
+     
       transform: translateX(-100%);
       transition: all .45s;
     }
@@ -119,5 +155,28 @@
       transform: rotate(-45deg) translate(26px, 26px);
     }
   
+    .Navbar > .nav-logo > img {
+      height: 70px;
+      width: 200px;
+      font-weight: 700;
+    }
+     
+  .Navbar> div > p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    display: none;
   
+  }
+  
+  
+  .Navbar> div> span{
+    font-weight: 500;
+    margin: 10px;
+    cursor: pointer;
+  }
+
   }  

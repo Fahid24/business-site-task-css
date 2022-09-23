@@ -1,0 +1,48 @@
+.introduction{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+
+.introduction > h1{
+    font-size: 70px;
+}
+
+.introduction > p{
+    font-size: 30px;
+}
+
+.introduction > img {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+
+@media (max-width: 700px) {
+
+    .introduction{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    
+    }
+
+    .introduction > h1{
+        font-size: 40px;
+    }
+
+    .introduction > p{
+        font-size: 20px;
+    }
+
+    br{
+        display: none;
+    }
+}
