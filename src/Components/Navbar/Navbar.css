@@ -74,6 +74,11 @@
   background-color: lightgray;
 
 }
+
+.Navbar > div{
+  display: flex;
+  align-items: center;
+}
   
   .Navbar > .nav-toggle {
     display: none;

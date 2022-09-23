@@ -5,7 +5,6 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { EffectCoverflow, Pagination, Autoplay } from "swiper";
-import Button from '../Share/Button/Button';
 import './Slider.css'
 
 const Slider = () => {
@@ -48,7 +47,6 @@ const Slider = () => {
                     </SwiperSlide>
 
                 </Swiper>
-                <Button kye={2} btn='btn-lg' text='Start your free trial ' />
 
             </div>
         </>

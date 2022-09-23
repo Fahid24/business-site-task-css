@@ -1,20 +1,27 @@
 import React from 'react';
 import companies from '../../../Datas/CompanyData';
+import Button from '../../../Components/Share/Button/Button';
+import './CompanyName.css'
 
 
 const CompanyName = () => {
     return (
-        <div className='flex gap-5 justify-around my-40 p-10'>
-            {
-                companies.map(company => (
-                    <div
-                        key={company.id}
-                    >
-                        <img className='rounded-xl' src={company.logo} alt="" />
+        <div className='company'>
+            <Button kye={2} btn='btn-lg' text='Start your free trial ' />
 
-                    </div>
-                ))
-            }
+            <div className=''>
+                {
+                    companies.map(company => (
+                        <div
+                            key={company.id}
+                        >
+                            <img className='' src={company.logo} alt="" />
+
+                        </div>
+                    ))
+                }
+            </div>
+
         </div>
     );
 };

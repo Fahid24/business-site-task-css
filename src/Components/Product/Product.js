@@ -1,5 +1,6 @@
 import React from 'react';
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import './Product.css'
 
 
 const Product = ({ product }) => {
