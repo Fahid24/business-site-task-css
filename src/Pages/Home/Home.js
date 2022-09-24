@@ -20,8 +20,7 @@ const Home = () => {
             <CompanyName />
             <Products />
             <Package />
-            <Service />
-            <Contact />
+
 
             {/* sticky chat bar */}
             <div className='sticky right-0 bottom-0 flex justify-end'>

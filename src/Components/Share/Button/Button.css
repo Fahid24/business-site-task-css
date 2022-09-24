@@ -34,3 +34,46 @@
 .btn-lg:hover{
     background-color: rgb(240, 114, 133);
 }
+
+@media only screen and (max-width: 700px) {
+
+    .btn-sm{
+        border:none;
+        margin: 5px;
+        padding: 10px;
+        font-weight: 100;
+        text-decoration: none;
+        font-size: small;
+        background-color:#FB2F79 ;
+        border-radius: 20px;
+        width: auto;
+        height: auto;
+        color: white;
+        cursor: pointer;
+    
+    }
+    .btn-sm:hover{
+        background-color: rgb(240, 114, 133);
+    }
+    
+    .btn-lg{
+        border:none;
+        padding: 10px;
+        font-weight: 200;
+        text-decoration: none;
+        font-size: medium;
+        background-color:#FB2F79 ;
+        border-radius: 25px;
+        width: auto;
+        height: auto;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .btn-lg:hover{
+        background-color: rgb(240, 114, 133);
+    }
+
+}
+
+

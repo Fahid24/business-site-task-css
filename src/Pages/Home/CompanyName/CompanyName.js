@@ -9,7 +9,7 @@ const CompanyName = () => {
         <div className='company'>
             <Button kye={2} btn='btn-lg' text='Start your free trial ' />
 
-            <div className=''>
+            <div className='name'>
                 {
                     companies.map(company => (
                         <div

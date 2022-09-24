@@ -1,8 +1,28 @@
 .slider {
     margin: auto;
+    width: 1330px;
     padding:0 120px 0 120px ;
     margin: 50px 0 30px 0;
     display: flex;
     justify-content: center;    
 }
+@media only screen and (max-width: 700px) {
+   .slider{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    padding: 0 ;
+    margin:0 0 0 15% ;
 
+
+   } 
+
+.slide{
+    
+}
+
+.slide > img  {
+    width: 400px;
+    
+   }
+}

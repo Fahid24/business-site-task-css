@@ -26,23 +26,23 @@ const Slider = () => {
                     autoplay={{ delay: 5000 }}
                     pagination={true}
                     modules={[EffectCoverflow, Pagination, Autoplay]}
-                    className="mySwiper"
+                    className="mySwiper swiper"
                 >
 
-                    <SwiperSlide>
+                    <SwiperSlide className='slide' >
                         <img src='https://sociality.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-image-1.6dd28592.png&w=1080&q=100' alt='' />
                     </SwiperSlide>
 
-                    <SwiperSlide>
+                    <SwiperSlide className='slide'>
                         <img src='https://sociality.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-image-3.405b489f.png&w=1080&q=100' alt='' />
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className='slide'>
                         <img src='https://sociality.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-image-2.874d228d.png&w=1080&q=100' alt='' />
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className='slide'>
                         <img src='https://sociality.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-image-5.53401e6b.png&w=1080&q=100' alt='' />
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className='slide'>
                         <img src='https://sociality.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-image-4.3865c0de.png&w=1080&q=100' alt='' />
                     </SwiperSlide>
 

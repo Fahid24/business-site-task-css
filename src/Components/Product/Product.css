@@ -1,5 +1,65 @@
 .card{
+    padding: 0;
+    margin: 5px;
+    width: min-content;
     background-color: white;
-margin: auto;
-width: auto;
+    border-radius: 20px;
+    transition: transform .2s;
+    
+   
 }
+
+.card:hover{
+
+    transform: scale(1.1);
+}
+    
+.card > img{
+
+    border-radius: 20px 20px 0 0;
+}
+
+.card > .card-body{
+    padding:10px 20px 20px 20px;
+}
+.card > .card-body > h3{
+    display: flex;
+    align-items: center;
+    gap:5px
+}
+
+.card > .card-body > .card-title{
+    font-size: large;
+    font-weight:500 ;
+
+
+}
+
+.card > .card-body > span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    
+}
+
+.card > .card-body > span > small{
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+    color: gray;
+}
+
+.card > .card-body > span > small:hover{
+    color: black;
+}
+
+
+.card > .card-body > span > .arro{
+
+    font-size: 35px;
+    cursor: pointer;
+
+}
+
